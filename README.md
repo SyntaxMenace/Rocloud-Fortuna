@@ -21,6 +21,15 @@ Install the [Lune 0.8.9](https://github.com/lune-org/lune/releases/tag/v0.8.9) b
 > [!WARNING]
 > Due to a new update released in `Lune 0.8.9` older versions are not 100% supported.
 
-Oops, installation is incomplete...
-Doesn't matter! Lune isn't that hard to use!
-I'm pretty sure you can just set it up yourself even if you have very little experience!
+Oops, installation is incomplete...<br>
+Doesn't matter! Lune isn't that hard to use!<br>
+I'm pretty sure you can just set it up yourself even if you have very little experience.
+
+## Usage
+Initializing Rocloud Fortuna <br>
+Create a new instance by passing your Roblox API key:
+
+```lua
+local Rocloud = require("RocloudFortuna") --> You may want to refer to this as Rocloud for clarity to the developers inspecting your code
+local FortunaAPI = Rocloud.new("your-api-key")
+```
