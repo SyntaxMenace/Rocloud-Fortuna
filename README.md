@@ -31,5 +31,5 @@ Create a new instance by passing your Roblox API key:
 
 ```lua
 local Rocloud = require("RocloudFortuna") --> You may want to refer to this as Rocloud for clarity to the developers inspecting your code
-local FortunaAPI = Rocloud.new("your-api-key")
+local FortunaAPI = Rocloud("your-api-key", universe_id_for_the_place)
 ```
