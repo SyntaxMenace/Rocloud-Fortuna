@@ -8,7 +8,6 @@
 ## Features
 - **Pure Luau**: Rocloud is written entirely in Lune, 
 - **Easy Integration**: Minimal setup to get started with robust API calls.
-- **Asynchronous**: Non-blocking API calls where possible for improved performance.
   
 ## Prerequisites
 - **Roblox API Key**: You'll need a valid Roblox OpenCloud API key with the necessary permissions for the endpoints you plan to use.
